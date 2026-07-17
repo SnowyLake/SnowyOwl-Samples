@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "com.snowyowl.graphicsframework": "https://github.com/SnowyLake/SnowyOwl-GraphicsFramework.git?path=/Packages/com.snowyowl.graphicsframework#20cb02bad3811f719cbc9547a3151bf84368b51b",
-    "com.unity.render-pipelines.core": "https://github.com/SnowyLake/SnowyOwl-GraphicsFramework.git?path=/Packages/com.unity.render-pipelines.core#20cb02bad3811f719cbc9547a3151bf84368b51b",
-    "com.unity.render-pipelines.universal": "https://github.com/SnowyLake/SnowyOwl-GraphicsFramework.git?path=/Packages/com.unity.render-pipelines.universal#20cb02bad3811f719cbc9547a3151bf84368b51b",
+    "com.snowyowl.graphicsframework": "https://github.com/SnowyLake/SnowyOwl-GraphicsFramework.git?path=/Packages/com.snowyowl.graphicsframework#develop",
+    "com.unity.render-pipelines.core": "https://github.com/SnowyLake/SnowyOwl-GraphicsFramework.git?path=/Packages/com.unity.render-pipelines.core#develop",
+    "com.unity.render-pipelines.universal": "https://github.com/SnowyLake/SnowyOwl-GraphicsFramework.git?path=/Packages/com.unity.render-pipelines.universal#develop",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.40",
