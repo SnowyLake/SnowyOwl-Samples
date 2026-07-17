@@ -1,0 +1,394 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_previewsphere
+  m_Shader: {fileID: 4800000, guid: 85ebf89e7ad5c9a429018cae22476b35, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ANISOTROPYUV_1U
+  - _DEBUG_BODYPART
+  - _DEBUG_ILM_BRDFSPECULAR
+  - _DEBUG_VALUELUT_METALLIC
+  - _FROST_ON
+  - _INSCATTERING_ON
+  - _MATCAPMODE_ADD
+  - _NORMALMAP
+  - _REFLECTION_ENVIRONMENT
+  - _RIMMODE_TOON_RIM
+  - _RIM_ON
+  - _SHELLFUR_ON
+  - _SUBSURFACE_ON
+  - _SURFACE_TYPE_OPAQUE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 8d04b1fc58b6e0e4ba7a8a42f4a76a4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CrystalMap:
+        m_Texture: {fileID: 2800000, guid: 3a52a9edda57a5a44beca63d39dc4833, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlitterMap:
+        m_Texture: {fileID: 2800000, guid: d8f0f88081b6d194aa1dbddb253b89a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IridescenceMap:
+        m_Texture: {fileID: 2800000, guid: 8f912b05fd88d7f4f8f14666964ce1d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightingMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LocalCubeMap:
+        m_Texture: {fileID: 8900000, guid: 0116fc5331a5d0b4bbb1c8f98a95890f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapMap:
+        m_Texture: {fileID: 2800000, guid: a457bbc236909da48b7b09d13c8a735d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 8d04b1fc58b6e0e4ba7a8a42f4a76a4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PBRMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionCubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionMatcapMap:
+        m_Texture: {fileID: 2800000, guid: ca09366dd203fd543988471af2856114, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShellFurMap:
+        m_Texture: {fileID: 2800000, guid: dfb8d85394d37ca4889888f263cc4136, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShiftMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TangentMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessMap:
+        m_Texture: {fileID: 2800000, guid: 1162becf321b7ce4c905c68ac24f2fc1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ValueLUTMap:
+        m_Texture: {fileID: 2800000, guid: a91b1ceb695bd0645a49d0b325feadf9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints:
+    - _CharacterFxMask: 0
+    m_Floats:
+    - _AdvancedSetting: 0
+    - _AlphaClip: 0
+    - _AlphaClipOn: 0
+    - _AlphaToMask: 0
+    - _Anisotropy: 0
+    - _AnisotropySettings: 1
+    - _AnisotropyShiftScale: 1
+    - _AnisotropyUV: 0
+    - _BaseMapNOTE: 0
+    - _BaseSettings: 1
+    - _Blend: 0
+    - _BlendMode: 0
+    - _BlendModePreserveSpecular: 1
+    - _BodyHideMask: 0
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatScale: 1
+    - _ClearCoatSettings: 1
+    - _ClearCoatSmoothness: 0
+    - _ComputeMeshIndex: 0
+    - _CrystalPower: 8
+    - _CrystalScale: 0.3
+    - _CrystalSettings: 1
+    - _CrystalThreshold: 0.2
+    - _CrystalTiling: 3
+    - _CubeMapRotation: 0
+    - _CubeMapScale: 1
+    - _CubeMapSettings: 1
+    - _CubeMapSmoothnessOffset: 0
+    - _Cull: 2
+    - _CustomDebugMode: 0
+    - _CustomDebugOn: 0
+    - _CustomDebugPBR: 0
+    - _CustomDebugSettings: 1
+    - _CustomDebugValueLUT: 0
+    - _CustomFogSettings: 1
+    - _Cutoff: 0.5
+    - _Debug: 0
+    - _DebugOn: 0
+    - _DebugSettings: 1
+    - _Debug_ILM: 0
+    - _Debug_ValueLut: 0
+    - _DetailAlbedoMapScale: 1
+    - _DetailBumpScale: 1
+    - _DetailNormalMapScale: 1
+    - _DetailNormalMapSettings: 1
+    - _DetailNormalScale: 1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _DynamicFeatureSettings: 1
+    - _Emission: 0
+    - _EmissionScale: 0
+    - _EmissionSetting: 0
+    - _EmissionSettings: 1
+    - _EnableAnisotropy: 0
+    - _EnableClearCoat: 0
+    - _EnableCrystal: 0
+    - _EnableCustomCubeMap: 0
+    - _EnableDetailNormalMap: 0
+    - _EnableDynamicFeature: 0
+    - _EnableEye: 0
+    - _EnableFabric: 0
+    - _EnableGlitter: 0
+    - _EnableIridescence: 0
+    - _EnableMatcap: 0
+    - _EnableNormalMap: 1
+    - _EnablePBR: 0
+    - _EnablePackedNormalMap: 0
+    - _EnableParallax: 0
+    - _EnableParallaxRayMarching: 0
+    - _EnableRim: 1
+    - _EnableSecondAnisotropy: 0
+    - _EnableShadowOff: 1
+    - _EnableShellFur: 0
+    - _EnableShiftMap: 0
+    - _EnableSmoothNormal: 0
+    - _EnableSubsurfaceScattering: 1
+    - _EnableTangentMap: 0
+    - _EnableThicknessMap: 0
+    - _EnableTint: 0
+    - _EnableValueLUTMap: 0
+    - _EnvironmentReflections: 1
+    - _EnvironmentReflectionsOff: 0
+    - _EyeIOR: 1.1
+    - _EyeIrisDepth: 0
+    - _EyeOffsetScale: 0.1
+    - _EyeSettings: 1
+    - _FabricDenier: 0.5
+    - _FabricInnerPower: 0.1
+    - _FabricInnerScale: 0.5
+    - _FabricOuterPower: 0.2
+    - _FabricOuterScale: 1
+    - _FabricSettings: 1
+    - _GlitterDistanceFactor: 0.3
+    - _GlitterPower: 8
+    - _GlitterScale: 10
+    - _GlitterSettings: 1
+    - _GlitterThreshold: 0.2
+    - _GlitterTiling: 3
+    - _GlobalIlluminationSetting: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _IndirectDiffuseIntensity: 1
+    - _IndirectSpecualrLightingScale: 1
+    - _IndirectSpecularIntensity: 1
+    - _IridescenceScale: 0.1
+    - _IridescenceSettings: 1
+    - _IridescenceTiling: 1
+    - _LightingMaskNOTE: 0
+    - _LightingMaskOn: 0
+    - _LightingSettings: 0
+    - _LocalBloomScale: 1
+    - _LocalBloomSettings: 1
+    - _LocalCubeMapOn: 0
+    - _LocalCubeMapRotate: 0
+    - _LocalCubeMapScale: 0.48
+    - _LocalCubeMapSetting: 0
+    - _LocalCubeMapSmoothnessOffset: 0
+    - _LocalHeightFogScale: 1
+    - _MatcapBlendLerp: 0.5
+    - _MatcapMode: 1
+    - _MatcapScale: 1
+    - _MatcapSettings: 1
+    - _MaterialSettings: 1
+    - _MeshSettings: 1
+    - _Metallic: 1
+    - _NormalMapOn: 0
+    - _NormalMapSetting: 0
+    - _NormalMapSettings: 1
+    - _NormalScale: 1
+    - _Occlusion: 0
+    - _OcclusionStrength: 1
+    - _PBRInfoSettings: 1
+    - _PackedNormalMapInfoSettings: 1
+    - _Parallax: 0.005
+    - _ParallaxJitter: 0
+    - _ParallaxScale: 0.5
+    - _ParallaxSettings: 1
+    - _ParallaxStepCount: 1
+    - _QueueOffset: 0
+    - _RasterizationSettings: 0
+    - _ReceiveShadows: 1
+    - _ReceiveShadowsOff: 0
+    - _Reflection: 0
+    - _RenderQueueMode: 0
+    - _RenderQueueOffset: 0
+    - _RimMode: 0
+    - _RimPart: 0
+    - _RimRange: 0.8
+    - _RimScale: 1
+    - _RimSettings: 1
+    - _ScreenDoorSettings: 1
+    - _ScreenDoorTiling: 1
+    - _ScreenDoorTransparency: 1
+    - _SecondAnisotropyScale: 0.5
+    - _SecondAnisotropyShiftScale: 1
+    - _SecondAnisotropySmoothness: 0.5
+    - _SelectOutlineScale: 0.008
+    - _SelectOutlineSettings: 1
+    - _ShadowScale: 0.5
+    - _ShadowSettings: 1
+    - _ShellFurCutoff: 0
+    - _ShellFurGravityWeight: 0.8
+    - _ShellFurNoiseWeight: 0.5
+    - _ShellFurOpacity: 0.5
+    - _ShellFurPower: 2
+    - _ShellFurScale: 1
+    - _ShellFurSettings: 1
+    - _ShellFurTiling: 10
+    - _SkinOn: 0
+    - _Smoothness: 0.85
+    - _SmoothnessTextureChannel: 0
+    - _Specular: 0.3
+    - _SpecularHighlights: 1
+    - _SpecularHighlightsOff: 0
+    - _SpecularScale: 1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _StencilPart: 0
+    - _SubsurfaceDepthScale: 10
+    - _SubsurfaceLightDirOffset: 0.2
+    - _SubsurfacePower: 8
+    - _SubsurfaceScale: 1
+    - _SubsurfaceScatteringSettings: 1
+    - _SubsurfaceViewDirOffset: -0.2
+    - _SubsurfaceWrap: 0.2
+    - _Surface: 0
+    - _SurfaceOptions: 0
+    - _Surface_Type: 0
+    - _TangentScale: 1
+    - _ThicknessPower: 1
+    - _ThroughHairSettings: 1
+    - _TintSettings: 1
+    - _Transparency: 1
+    - _ValueLUTSettings: 1
+    - _VertexClipOn: 0
+    - _ViewSpecularScale: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CrystalColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CubeMapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DotsDeformationParams: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LocalCubeMapTintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 0.5019608, b: 0, a: 1}
+    - _SelectOutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShellFurGravity: {r: 0, g: -1, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &8213016362888135072
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

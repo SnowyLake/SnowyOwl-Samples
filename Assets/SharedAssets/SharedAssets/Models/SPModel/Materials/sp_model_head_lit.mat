@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: sp_model_head_lit
+  m_Shader: {fileID: 4800000, guid: 85ebf89e7ad5c9a429018cae22476b35, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _LIGHTING_MASK_ON
+  - _NORMALMAP_ON
+  m_InvalidKeywords:
+  - _MATCAPMODE_NONE
+  - _METALLICSPECGLOSSMAP
+  - _NORMALMAP
+  - _PBR_ON
+  - _REFLECTION_ENVIRONMENT
+  - _REVERSE_ON
+  - _SURFACE_TYPE_OPAQUE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: b302b37457c957c42a66ecd075537570, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: b994be2af2bdc7246af05a592ea6c931, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: c8573f73cde0acc42b0bf1fd71f2a233, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightingMask:
+        m_Texture: {fileID: 2800000, guid: c85cbe87a02bd93429590045aec01931, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LocalCubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b302b37457c957c42a66ecd075537570, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapMap:
+        m_Texture: {fileID: 2800000, guid: 093123879b03fad40b91e66950b6ef17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: e11f6e491030eb8478682a7f91821c5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: b994be2af2bdc7246af05a592ea6c931, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PBRMap:
+        m_Texture: {fileID: 2800000, guid: c85cbe87a02bd93429590045aec01931, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PBRMaskMap:
+        m_Texture: {fileID: 2800000, guid: c85cbe87a02bd93429590045aec01931, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionCubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionMatcapMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AO: 1
+    - _AdvancedSetting: 0
+    - _AlphaClip: 0
+    - _AlphaClipOn: 0
+    - _AlphaToMask: 0
+    - _BakeAOContrast: 0
+    - _BakeAOScale: 1
+    - _BakeAOSettings: 1
+    - _BaseMapNOTE: 0
+    - _BaseSettings: 0
+    - _Blend: 0
+    - _BlendMode: 0
+    - _BlendModePreserveSpecular: 1
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _CubeMapRotation: 0
+    - _CubeMapRoughness: 0
+    - _CubeMapScale: 1
+    - _CubeMapSettings: 0
+    - _CubeMapSmoothnessOffset: 0
+    - _CubemapBlurness: 0
+    - _CubemapIntensity: 1
+    - _CubemapSettings: 0
+    - _Cull: 2
+    - _CustomSettings: 0
+    - _CustomSpecularStrength: 1
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _Emission: 5
+    - _EmissionScale: 25
+    - _EmissionSetting: 0
+    - _EmissionSettings: 1
+    - _EmissionStrength: 10
+    - _EnableBakeAO: 0
+    - _EnableCustomCubeMap: 0
+    - _EnableCustomCubemap: 0
+    - _EnableNormalMap: 1
+    - _EnablePBR: 1
+    - _EnableRim: 0
+    - _EnableSmoothNormal: 0
+    - _EnvironmentReflections: 0
+    - _EnvironmentReflectionsOff: 0
+    - _GlobalIlluminationSetting: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _IndirectDiffuseIntensity: 1
+    - _IndirectDiffuseLightingScale: 1
+    - _IndirectSpecualrLightingScale: 1
+    - _IndirectSpecularIntensity: 1
+    - _InsideRange: 0.999
+    - _LightingMaskNOTE: 0
+    - _LightingMaskOn: 1
+    - _LightingSettings: 0
+    - _LocalCubeMapOn: 0
+    - _LocalCubeMapRotate: 0
+    - _LocalCubeMapScale: 1
+    - _LocalCubeMapSetting: 0
+    - _LocalCubeMapSmoothnessOffset: 0
+    - _LocalHeightFogScale: 1
+    - _MatcapMode: 2
+    - _MatcapScale: 2
+    - _MatcapSettings: 1
+    - _Metallic: 1
+    - _NormalMapOn: 1
+    - _NormalMapSetting: 0
+    - _NormalScale: 1
+    - _Occlusion: 1
+    - _OcclusionStrength: 1
+    - _OutsideRange: 10
+    - _PBRInfoSettings: 1
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _RasterizationSettings: 0
+    - _ReceiveShadows: 1
+    - _ReceiveShadowsOff: 0
+    - _RefValue: 0
+    - _Reflection: 0
+    - _ReflectionBlend: 0
+    - _ReflectionSettings: 0
+    - _RenderQueueMode: 0
+    - _RenderQueueOffset: 0
+    - _Reverse: 1
+    - _RimPower: 9.9
+    - _RimScale: 10
+    - _RimSettings: 1
+    - _ScreenDoorSettings: 0
+    - _ScreenDoorTiling: 1
+    - _ScreenDoorTransparency: 1
+    - _SelectOutlineScale: 0.008
+    - _SelectOutlineSettings: 1
+    - _ShadowSettings: 0
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _Specular: 1
+    - _SpecularHighlights: 1
+    - _SpecularHighlightsOff: 0
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Surface: 0
+    - _SurfaceOptions: 0
+    - _SurfaceSettings: 0
+    - _Surface_Type: 0
+    - _ToggleScreenDoor: 0
+    - _Transparency: 1
+    - _WSMask: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CubeMapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CubeMapCustomUV: {r: 0, g: 0, b: 0, a: 1}
+    - _CubemapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CubemapCustomUV: {r: 0, g: 0, b: 0, a: 1}
+    - _CustomLightDir: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LocalCubeMapTintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ScreenDoorCenter: {r: 0.5, g: 0.5, b: 0.1, a: 0.1}
+    - _SelectOutlineColor: {r: 1.6, g: 0.1, b: 0.12, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &4770656918621004065
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

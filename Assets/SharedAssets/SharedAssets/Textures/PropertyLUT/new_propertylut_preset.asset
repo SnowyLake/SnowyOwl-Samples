@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db85b773c0bc37439182f35287be99c, type: 3}
+  m_Name: new_propertylut_preset
+  m_EditorClassIdentifier: 
+  templete: {fileID: 11400000, guid: 5502cbacb76d984469111561aec25f5f, type: 2}
+  datas:
+  - name: default
+    value:
+    - prototype: {fileID: -3450860036031639838, guid: 5502cbacb76d984469111561aec25f5f, type: 2}
+      value: {x: 0, y: 0, z: 0, w: 0}
+    - prototype: {fileID: -354148311376645670, guid: 5502cbacb76d984469111561aec25f5f, type: 2}
+      value: {x: 1, y: 1, z: 1, w: 0}
+    - prototype: {fileID: 2768538376690100365, guid: 5502cbacb76d984469111561aec25f5f, type: 2}
+      value: {x: 0, y: 0, z: 0, w: 0}
+    - prototype: {fileID: -2649038534527195867, guid: 5502cbacb76d984469111561aec25f5f, type: 2}
+      value: {x: 0, y: 0, z: 0, w: 0}
