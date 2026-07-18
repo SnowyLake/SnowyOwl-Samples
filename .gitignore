@@ -62,8 +62,12 @@ crashlytics-build.properties
 
 *.idea
 
+# Packages lock
+/Packages/packages-lock.json
+
 # AI
 *.agent-sessions
+*.uloop
 
 # Commercial plugins are installed locally and are never committed.
 /Assets/Plugins/Sirenix/

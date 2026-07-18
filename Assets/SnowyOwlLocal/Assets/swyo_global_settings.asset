@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5881db752864bdf4bb317a4c50577630, type: 3}
+  m_Name: swyo_global_settings
+  m_EditorClassIdentifier: 
+  m_EnableShaderDebugSymbols: 1
+  m_EnableDepthPriming: 1
+  enableGraphicsQualityControl: 0
+  shaderDefineGenerator:
+    shaderDefineTable:
+    - enable: 1
+      defineText: enable_d3d11_debug_symbols
+      defineType: 1
+    - enable: 1
+      defineText: SWYO_DEPTH_PRIMING_ON
+      defineType: 0
+  globalAssets:
+    m_Keys: 00000000
+    m_Values:
+    - {fileID: 9165078261699156619, guid: e9ee6f52197fe9c46838bfc6e1e9aae9, type: 3}
